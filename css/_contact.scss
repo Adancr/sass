@@ -1,0 +1,43 @@
+.contact {
+  input,
+  textarea {
+    padding: 10px;
+    width: 100%;
+  }
+
+  div {
+    display: flex;
+    margin-bottom: 10px;
+
+    &:first-child {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 15px;
+    }
+    &:last-child {
+      justify-content: center;
+      text-align: center;
+    }
+    button {
+      margin: 0 10px;
+      padding: 10px 12px;
+      background-color: $color-primary;
+      border: 0;
+      border-radius: 4px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+
+      &[type="reset"] {
+        background-color: $color-secondary;
+      }
+
+      // &:last-child {
+      //   background-color: $color-secondary;
+      //   color: #fff;
+      // }
+    }
+
+
+  }
+}

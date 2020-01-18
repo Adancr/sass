@@ -1,0 +1,47 @@
+/*******************************
+* GLOBALS
+*******************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 13px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+section {
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 20px;
+  margin: 0 0 20px;
+  transition: box-shadow .4s ease;
+
+  &:hover {
+    box-shadow: 0 4px 0 #cdcdcd;
+  }
+}

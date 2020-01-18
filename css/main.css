@@ -1,0 +1,173 @@
+/*******************************
+* VARIABLES
+*******************************/
+header, main, footer {
+  padding: 10px;
+}
+
+/*******************************
+* GLOBALS
+*******************************/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 13px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+section {
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 20px;
+  margin: 0 0 20px;
+  -webkit-transition: -webkit-box-shadow .4s ease;
+  transition: -webkit-box-shadow .4s ease;
+  transition: box-shadow .4s ease;
+  transition: box-shadow .4s ease, -webkit-box-shadow .4s ease;
+}
+
+section:hover {
+  -webkit-box-shadow: 0 4px 0 #cdcdcd;
+          box-shadow: 0 4px 0 #cdcdcd;
+}
+
+/*******************************
+* HEADER
+*******************************/
+header {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: blue;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:active {
+  background-color: red;
+  color: white;
+}
+
+.pets .pet-one {
+  background-image: url(https://loremflickr.com/500/400);
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  width: 100%;
+}
+
+.contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contact div:first-child {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.contact div:last-child {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contact div button {
+  margin: 0 10px;
+  padding: 10px 12px;
+  background-color: orange;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact div button[type="reset"] {
+  background-color: green;
+}
+
+/*******************************
+* FOOTER
+*******************************/
+footer {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+$width: 500;
+$height: 400;
+
+.pets {
+  .pet-one {
+    background-image: url(#{$url-image}/#{$width}/#{$height});
+    width: #{$width}px;
+    height: #{$height}px;
+    margin: auto;
+  }
+}
